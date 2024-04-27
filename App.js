@@ -19,6 +19,7 @@ connectToDb((err) => {
 
 app.use(express.json());
 
+
 // Route to get all patients
 app.get('/patients', async (req, res) => {
   try {
